@@ -1,0 +1,12 @@
+#!/bin/bash
+
+set -xe
+set pipefail
+
+URL=https://koudaiii.github.io/helm-charts
+
+for d in $(ls -d */ | grep -ve docs/ -ve script/); do
+  helm package $d -u -d docs
+done
+
+helm repo index docs --url $URL
