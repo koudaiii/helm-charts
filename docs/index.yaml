@@ -1,0 +1,12 @@
+apiVersion: v1
+entries:
+  sample-go-api:
+  - apiVersion: v1
+    created: 2017-10-14T05:11:30.544036274+09:00
+    description: A Helm chart for Kubernetes
+    digest: d307825188d23c0ae4fc05edbc440060c550c5e0ef9083e2650311e099805d55
+    name: sample-go-api
+    urls:
+    - https://koudaiii.github.io/helm-charts/sample-go-api-0.1.0.tgz
+    version: 0.1.0
+generated: 2017-10-14T05:11:30.543163524+09:00
